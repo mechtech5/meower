@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Meower - Twitter for cats</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">Meower - Twitter for cats</h1>
+  </header>
+  <form action="" class="mew-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" class="u-full-width">
+
+    <label for="content">Mew</label>
+    <textarea name="content" id="content" cols="30" rows="10" class="u-full-width"></textarea>
+    
+    <button class="button-primary">Send your mew</button>
+  </form>
+  <div class="loading">
+    <img src="loading.gif" alt="Loading...">
+  </div>
+  <hr>
+  <div class="mews"></div>
+  <script src="client.js"></script>
+</body>
+</html>
